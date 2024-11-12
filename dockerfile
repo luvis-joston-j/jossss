@@ -3,4 +3,4 @@ RUN apt install python3 -y
 RUN apt install python3-flask -y
 COPY app.py /tmp
 EXPOSE 80
-CMD ["pyrhon3","/tmp/jos"]
+CMD ["python3","/tmp/app.py"]
